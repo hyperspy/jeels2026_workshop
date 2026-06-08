@@ -10,6 +10,6 @@ ipywidgets>=8.0
 ipympl>=0.9
 
 # HyperSpy ecosystem
-git+https://github.com/hyperspy/hyperspy.git@RELEASE_next_minor#egg=hyperspy
-hyperspy_gui_ipywidgets>=2.0
+git+https://github.com/francisco-dlp/hyperspy.git@FIX_mac_shortcuts#egg=hyperspy
+git+https://github.com/hyperspy/hyperspy_gui_ipywidgets.git@main#egg=hyperspy_gui_ipywidgets
 exspy>=0.3
