@@ -40,3 +40,6 @@ hyperspy_*.log
 
 # Tool / editor state
 .omo/
+
+# Marimo cache
+__marimo__/

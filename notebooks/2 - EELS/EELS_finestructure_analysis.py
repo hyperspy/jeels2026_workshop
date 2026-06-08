@@ -1,6 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
+#     "exspy",
 #     "hyperspy-gui-anywidget @ git+https://github.com/hyperspy/hyperspy_gui_anywidget",
 #     "hyperspy",
 #     "marimo>=0.23.8",
@@ -383,9 +384,9 @@ def _(mo):
 @app.cell
 def _(g1, g2, g3):
     # Set the bmin and bmax of the `sigma` parameter of all Gaussian components
-    for g in [g1, g2, g3]:
-        g.sigma.bmin = 0.75
-        g.sigma.bmax = 3.5
+    for _g in [g1, g2, g3]:
+        _g.sigma.bmin = 0.75
+        _g.sigma.bmax = 3.5
     return
 
 
@@ -691,9 +692,9 @@ def _(hs):
 @app.cell
 def _(g1_m2, g2_m2, g3_m2):
     # Set bounds on the `sigma` parameter
-    for g in [g1_m2, g2_m2, g3_m2]:
-        g.sigma.bmin = 0.75
-        g.sigma.bmax = 3.5
+    for _g in [g1_m2, g2_m2, g3_m2]:
+        _g.sigma.bmin = 0.75
+        _g.sigma.bmax = 3.5
     return
 
 
@@ -940,10 +941,10 @@ def _(g1_g3_ratio, g1_g3_ratio_m2, hs):
 @app.cell
 def _(g1_g3_position, g1_g3_position_m2, hs):
     # TODO: Use hs.plot.plot_spectra to compare the two approaches
-    # ax = hs.plot.plot_spectra([g1_g3_position, g1_g3_position_m2], legend=["Deconvolution approach", "Convolution approach"])
-    # ax.set_ylabel("1st to 3rd peak separation (eV)")
-    ax = None  # placeholder — replace with the lines above
-    return ax,
+    # ax2 = hs.plot.plot_spectra([g1_g3_position, g1_g3_position_m2], legend=["Deconvolution approach", "Convolution approach"])
+    # ax2.set_ylabel("1st to 3rd peak separation (eV)")
+    ax2 = None  # placeholder — replace with the lines above
+    return ax2,
 
 
 if __name__ == "__main__":

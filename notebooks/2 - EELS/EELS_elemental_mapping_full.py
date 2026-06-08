@@ -488,13 +488,13 @@ def _(mr):
 @app.cell
 def _(mr):
     # Restore the model using the `restore` method of the `models` attribute
-    mr = mr.models.restore('a')
-    return mr,
+    mr_restored = mr.models.restore('a')
+    return mr_restored,
 
 
 @app.cell
-def _(mr):
-    mr.plot(plot_components=True)
+def _(mr_restored):
+    mr_restored.plot(plot_components=True)
     return
 
 

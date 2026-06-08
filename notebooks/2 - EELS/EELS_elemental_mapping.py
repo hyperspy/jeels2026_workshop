@@ -471,8 +471,8 @@ def _(mr):
 @app.cell
 def _(mr):
     # Restore the model using the `restore` method of the `models` attribute
-    mr = None  # TODO: Use mr.models.restore('a')
-    return mr,
+    mr_restored = None  # TODO: Use mr.models.restore('a')
+    return mr_restored,
 
 
 @app.cell

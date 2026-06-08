@@ -80,12 +80,10 @@ def _(mo):
 
 @app.cell
 def _(hs, np):
-    import numpy as np
-
     # Create a simple 1D signal from a numpy array:
-    s = hs.signals.Signal1D(np.arange(10))
-    s
-    return (s,)
+    s_demo = hs.signals.Signal1D(np.arange(10))
+    s_demo
+    return (s_demo,)
 
 
 @app.cell(hide_code=True)
