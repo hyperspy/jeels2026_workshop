@@ -9,7 +9,7 @@
 # ]
 #
 # [tool.uv.sources]
-# hyperspy = { git = "https://github.com/francisco-dlp/hyperspy.git", branch = "JEELS2026" }
+# hyperspy = { git = "https://github.com/hyperspy/hyperspy.git", branch = "JEELS2026" }
 #
 # [tool.uv]
 # # The git branch builds as a pre-release (2.4.1.dev60+g...) which uv
@@ -105,7 +105,7 @@ def _(mo):
     data_path = "datasets/CuZn_EELS_mapping_tutorial.hspy"
     if not os.path.exists(data_path):
         os.makedirs(os.path.dirname(data_path), exist_ok=True)
-        url = "https://raw.githubusercontent.com/francisco-dlp/jeels2026_workshop/main/notebooks/2%20-%20EELS/datasets/CuZn_EELS_mapping_tutorial.hspy"
+        url = "https://raw.githubusercontent.com/hyperspy/jeels2026_workshop/main/notebooks/2%20-%20EELS/datasets/CuZn_EELS_mapping_tutorial.hspy"
         urllib.request.urlretrieve(url, data_path)
         print(f"Downloaded dataset to {data_path}")
     return

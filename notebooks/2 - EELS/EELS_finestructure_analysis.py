@@ -8,7 +8,7 @@
 # ]
 #
 # [tool.uv.sources]
-# hyperspy = { git = "https://github.com/francisco-dlp/hyperspy.git", branch = "JEELS2026" }
+# hyperspy = { git = "https://github.com/hyperspy/hyperspy.git", branch = "JEELS2026" }
 #
 # [tool.uv]
 # override-dependencies = ["hyperspy>=2.4.1.dev0"]
@@ -76,7 +76,7 @@ def _(mo):
         if not os.path.exists(data_path):
             os.makedirs(os.path.dirname(data_path), exist_ok=True)
             filename = os.path.basename(data_path)
-            url = f"https://raw.githubusercontent.com/francisco-dlp/jeels2026_workshop/main/notebooks/2%20-%20EELS/datasets/{filename}"
+            url = f"https://raw.githubusercontent.com/hyperspy/jeels2026_workshop/main/notebooks/2%20-%20EELS/datasets/{filename}"
             urllib.request.urlretrieve(url, data_path)
             print(f"Downloaded dataset to {data_path}")
     return

@@ -1,6 +1,6 @@
 # JEElS 2026 Workshop — exspy & HyperSpy
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/francisco-dlp/jeels2026_workshop/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hyperspy/jeels2026_workshop/HEAD)
 
 Materials for the exspy workshop at the JEElS 2026 conference.
 
@@ -33,9 +33,9 @@ Click the badges below to open any notebook:
 
 | Notebook | Open in molab |
 |---|---|
-| Getting Started | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/francisco-dlp/jeels2026_workshop/blob/main/notebooks/1%20-%20Getting%20Started/01_Getting_Started_unfilled.py) |
-| EELS Elemental Mapping | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/francisco-dlp/jeels2026_workshop/blob/main/notebooks/2%20-%20EELS/EELS_elemental_mapping.py) |
-| EELS Fine Structure | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/francisco-dlp/jeels2026_workshop/blob/main/notebooks/2%20-%20EELS/EELS_finestructure_analysis.py) |
+| Getting Started | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/hyperspy/jeels2026_workshop/blob/main/notebooks/1%20-%20Getting%20Started/01_Getting_Started_unfilled.py) |
+| EELS Elemental Mapping | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/hyperspy/jeels2026_workshop/blob/main/notebooks/2%20-%20EELS/EELS_elemental_mapping.py) |
+| EELS Fine Structure | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/hyperspy/jeels2026_workshop/blob/main/notebooks/2%20-%20EELS/EELS_finestructure_analysis.py) |
 
 Marimo notebooks are reactive — cells automatically re-run when their inputs
 change, and the UI provides a clean, app-like experience.
