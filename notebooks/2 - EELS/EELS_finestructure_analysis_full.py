@@ -8,7 +8,7 @@
 # ]
 #
 # [tool.uv.sources]
-# hyperspy = { git = "https://github.com/francisco-dlp/hyperspy.git", branch = "FIX_mac_shortcuts" }
+# hyperspy = { git = "https://github.com/francisco-dlp/hyperspy.git", branch = "JEELS2026" }
 #
 # [tool.uv]
 # override-dependencies = ["hyperspy>=2.4.1.dev0"]
